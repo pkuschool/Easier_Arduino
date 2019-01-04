@@ -32,6 +32,6 @@
 ### keypress (不确定能否工作)
 - keypress(byte a[],int count=1,int holdtime=50,bool takeover=true)
 - a: 要按的键数组
-- count:按键数目（我懒）
+- count: 按键数目（我懒）
 - holdtime: 按住时间
-- takeover: 在最初开启控制并最后终结控制 - keyb
+- takeover: 在最初开启控制并最后终结控制
