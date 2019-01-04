@@ -34,4 +34,4 @@
 - a: 要按的键数组
 - count:按键数目（我懒）
 - holdtime: 按住时间
-- takeover: 在最初开启控制并最后终结控制 - keyb1
+- takeover: 在最初开启控制并最后终结控制 - keyb
