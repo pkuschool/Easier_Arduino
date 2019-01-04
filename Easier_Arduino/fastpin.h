@@ -26,8 +26,8 @@ void otiwd(byte a=9,byte b=A0,int delaytime=50,double times=1.0){//output to inp
   }
 }
 void servoinit(bool nineenabled=false,bool tenenabled=false,bool mechanicinit=false,int mechanicdelay=1000){
-	if(nine)nine.attach(9);
-	if(ten)ten.attach(10);
+	if(nineenabled)nine.attach(9);
+	if(tenenabled)ten.attach(10);
 	if(mechanicinit){
 		if(nineenabled)nine.write(0);
 		if(tenenabled)ten.write(0);
